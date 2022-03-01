@@ -1,6 +1,15 @@
+import iconPlay from "./assets/images/icon-play.svg";
+import iconWork from "./assets/images/icon-work.svg";
+import iconStudy from "./assets/images/icon-study.svg";
+import iconSocial from "./assets/images/icon-social.svg";
+import iconSelfCare from "./assets/images/icon-self-care.svg";
+import iconExercise from "./assets/images/icon-exercise.svg";
+
 export const data = [
   {
     title: "Work",
+    bgColor: "hsl(15, 100%, 70%)",
+    icon: iconWork,
     timeframes: {
       daily: {
         current: 5,
@@ -18,6 +27,8 @@ export const data = [
   },
   {
     title: "Play",
+    bgColor: "hsl(195, 74%, 62%)",
+    icon: iconPlay,
     timeframes: {
       daily: {
         current: 1,
@@ -35,6 +46,8 @@ export const data = [
   },
   {
     title: "Study",
+    bgColor: "hsl(348, 100%, 68%)",
+    icon: iconStudy,
     timeframes: {
       daily: {
         current: 0,
@@ -52,6 +65,8 @@ export const data = [
   },
   {
     title: "Exercise",
+    bgColor: "hsl(145, 58%, 55%)",
+    icon: iconExercise,
     timeframes: {
       daily: {
         current: 1,
@@ -69,6 +84,8 @@ export const data = [
   },
   {
     title: "Social",
+    bgColor: "hsl(264, 64%, 52%)",
+    icon: iconSocial,
     timeframes: {
       daily: {
         current: 1,
@@ -86,6 +103,8 @@ export const data = [
   },
   {
     title: "Self Care",
+    bgColor: "hsl(43, 84%, 65%)",
+    icon: iconSelfCare,
     timeframes: {
       daily: {
         current: 0,
